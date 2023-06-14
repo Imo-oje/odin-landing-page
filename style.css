@@ -89,7 +89,7 @@ ul li {
     margin-top: 10px;
 }
 
-button:hover {
+ .info-section button:hover {
 opacity: 0.5;
 cursor: pointer;
 }
@@ -178,3 +178,44 @@ margin-top: 2rem;
     font-weight: 600;
 }
 
+section.call-to-action {
+    background: #3882f6;
+    border-radius: 1rem;
+    padding: 3rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.call-to-action h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.call-to-action p {
+    font-size: 18px;
+    color:#e5e7eb ;
+    margin-top: 10px;
+}
+
+.call-to-action .cta-btn {
+    width: 6rem;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+.call-to-action .cta-btn:hover {
+    border: none;
+    background: #fff;
+    color: #3882f6;
+}
