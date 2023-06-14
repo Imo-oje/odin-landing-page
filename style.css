@@ -157,3 +157,24 @@ margin-top: 2rem;
     text-align: center;
     color:#293a5c ;
 }
+
+.quote {
+    background: #e5e7eb;
+    border-radius: 1rem;
+    padding: 5rem 8rem;
+
+}
+
+.quote .text {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote .text p {
+    margin-left: 65%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
