@@ -230,7 +230,7 @@ section.call-to-action {
     border: none;
     background: #fff;
     color: #3882f6;
-    transition: allc300ms ease;
+    transition: all 300ms ease;
 }
 
 footer p {
